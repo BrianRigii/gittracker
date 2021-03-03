@@ -10,6 +10,7 @@ void main() {
    Widget build(BuildContext context) {
      return MaterialApp(
        title: 'Git Tracker',
+       routes: routes,
        theme: ThemeData(canvasColor: Colors.white),
        initialRoute: RouteConfig.splash,
        

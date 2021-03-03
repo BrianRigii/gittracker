@@ -1,4 +1,3 @@
-import 'dart:js';
 
 import 'package:git_tracker/screens/home_screen.dart';
 import 'package:git_tracker/screens/login_screen.dart';
