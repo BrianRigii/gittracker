@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:git_tracker/routes.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +11,7 @@ void main() {
      return MaterialApp(
        title: 'Git Tracker',
        theme: ThemeData(canvasColor: Colors.white),
+       initialRoute: RouteConfig.splash,
        
      );
    }
