@@ -21,7 +21,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             Text(
               'GIT TRACKER',
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),
             ),
             SizedBox(height: 10),
             TextFormField(
